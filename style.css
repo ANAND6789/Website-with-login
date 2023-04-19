@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+html,body{
+    display: grid;
+    height: 100%;
+    place-items: center;
+    background: #41644A;
+}
+.wrapper{
+    width: 350px;
+    background: #fff ;
+    border-radius: 5px;
+}
+.wrapper .title{
+    line-height: 80px;
+    background: #DDFFBB ;
+    text-align: center;
+    padding-left: 20px;
+    border-radius: 5px 5px 0 0;
+    color: black;
+    font-size: 30px;
+    font-weight: 750;
+
+}
+.wrapper form{
+    padding: 30px 30px 25px 30px;
+}
+.wrapper form .row{
+    height:45px;
+    margin-bottom: 15px;
+    position: relative;
+}
+.wrapper form .pass {
+    margin: -5px 0 18px 0;
+}
+.wrapper form .pass a{
+    color:rgb(84, 84, 236) ;
+    font-size: 15px;
+    text-decoration: none;
+}
+.wrapper form .pass a:hover{
+    text-decoration: underline;
+}
+
+.wrapper form .row input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    padding-left:60px;
+    border-radius: 5px;
+    border: 1px solid lightslategray;
+    font-size: 16px;
+}
+form .button input:focus{
+    border-color: #41644A;
+    box-shadow: inset 0px 0px 2px 2px rgb(65,100,74);
+
+}
+.wrapper form .row i{
+    position: absolute;
+    width: 47px;
+    height: 100%;
+    color: black;
+    font-size: 18px;
+    background: #DDFFBB ;
+    border: 1px solid #DDFFBB;
+    border-radius: 5px 0 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper form .button input{
+    color: black;
+    font-size: 18px;
+    font-weight: 300;
+    padding-left: 0px;
+    background: #DDFFBB;
+    border: 1px solid #DDFFBB;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    
+}
+.wrapper form .signup-link {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 15px;
+
+}
+.wrapper form .signup-link a{
+    color:rgb(84, 84, 236) ;
+    text-decoration: none;
+}
+.wrapper form .signup-link a:hover{
+    text-decoration: underline;
+}
+form .button input:hover{
+    background: #41644A;
+}
+
